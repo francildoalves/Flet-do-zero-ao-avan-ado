@@ -14,14 +14,14 @@ def main(page: ft.Page):
     page.add(new_tesk)
 
     # Inserindo Tarefa
-    new_tesk2 = ft.TextField(hint_text='Insira ima terefa')
+    new_tesk2 = ft.TextField(hint_text='Insira ima terefa...')
     page.add(new_tesk2)
 
     # Botão de adicionar tarefa
     new_button = ft.FloatingActionButton(icon=ft.icons.ADD, on_click=add_task)
     page.add(new_button)
 
-    page.update()   
+    page.update()
 
 
 ft.app(target=main)

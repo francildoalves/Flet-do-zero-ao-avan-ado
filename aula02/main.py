@@ -22,6 +22,7 @@ def main(page: ft.Page):
     new_button = ft.FloatingActionButton(icon=ft.icons.ADD, on_click=add_task)
     page.add(new_button)
 
+    # Atualizando a página para refletir as mudanças
     page.update()
 
 

@@ -25,5 +25,4 @@ def main(page: ft.Page):
     # Atualizando a página para refletir as mudanças
     page.update()
 
-
 ft.app(target=main)

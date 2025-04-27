@@ -1,6 +1,7 @@
 # Importações
 import flet as ft
 
+
 def main(page: ft.Page):
 
     # Definindo o título da página
